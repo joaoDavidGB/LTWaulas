@@ -1,0 +1,123 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	margin-top:0px;
+	background-color: black;
+	font-family: serif;
+	color: white;
+	padding-left: 20px;
+}
+
+#header h1{
+	color: white;
+	padding-top: 15px;
+	margin-top: 0;	
+	font-size: 2.5em;
+	margin-bottom: 0;
+}
+
+#header h2{
+	margin-top: 0;
+	color: white;
+	font-size: 1.2em;
+	padding-bottom: 15px;
+	margin-bottom: 0px;
+}
+
+#menu{
+	background-color: #303030;
+}
+
+#menu ul{
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#menu a{
+	background-color: white;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: black;
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+#menu li{
+	display: inline;
+}
+
+#content{
+	background-color: white;
+	padding-left: 10px;
+	width:50rem;
+}
+
+#content h3{
+	margin: 0;
+	font-size: 1.8rem;
+	padding-top: 10px;
+	font-weight: 900;
+}
+
+#content img{
+	float: right;
+	padding-left: 10px;
+}
+
+.introduction{
+	font-style: italic;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+#content p a{
+	text-decoration: none;
+	color: brown;
+}
+
+#content ul{
+	background-color: #303030;
+	padding-left: 0;
+	margin:0;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+	padding-left: 10px;
+}
+
+#content li{
+	display: inline;
+}
+
+#content a{
+	text-decoration: none;
+	color: white;
+	font-weight: 100;
+	margin-right: 20px;
+}
+
+#footer{
+	width: 50rem;
+}
+
+#footer p{
+	float: right;
+	font-weight: 600;
+}
+
+body{
+	background-image: url("stripe.png");
+	width:60rem;
+	margin-left:40px;
+	background-color: white;
+	background-repeat: repeat-y;
+}
